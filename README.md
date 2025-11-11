@@ -42,3 +42,22 @@ The game has **three increasing levels of difficulty**, each introducing new typ
 ```bash
 git clone https://github.com/your-username/my-pyxel-game.git
 cd my-pyxel-game
+```
+
+2. Create and activate a Python 3.11 environment:
+
+```bash
+python3.11 -m venv pyxel_env
+source pyxel_env/bin/activate
+```
+
+3. Install dependencies:
+   
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the game:
+```bash
+python JeuLaby.py
+```
